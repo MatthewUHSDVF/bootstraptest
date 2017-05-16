@@ -1,0 +1,74 @@
+.mynavbar{
+    background-color: #444444;
+}
+.nav-tabs{
+    font-size: xx-small;
+
+}
+.nav-tabs>li {
+    margin-bottom: 0;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 0 solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav>li>a{
+    padding: 6px 6px;
+    color: white;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #222222;
+}
+.mybody{
+    padding-left: 10%;
+    padding-right: 10%;
+    /*margin-top: 30px;*/
+    height: 96px;
+}
+.mysearch{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-left: 8%;
+
+
+}
+input.form-control.input-lg{
+    height: 35px;
+    padding-left:10px;
+    padding-right:0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    margin-right: -5px;
+    border-radius: 0;
+}
+.mysearchspan{
+    width: 19%;
+    border-radius: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:14px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size:14px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size:14px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size:14px;
+}
+
+.indexinfo{
+    margin-top: 2%;
+    margin-right: 0;
+    text-align: center;
+}
+
+.indexinfo>.btn{
+    line-height: 1.3333333;
+    border-radius: 0;
+}
