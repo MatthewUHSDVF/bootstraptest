@@ -1,29 +1,26 @@
 .mynavbar{
-    background-color: #444444;
+    background-color: #505050;
 }
 .nav.nav-tabs{
-    font-size: xx-small;
+    font-size: 10px;
 }
 .nav.nav-tabs>li {
     margin-bottom: 0;
 }
 .nav.nav-tabs>li>a {
-    margin-right: 2px;
-    line-height: 1.42857143;
+    margin-right: 5px;
     border: 0 solid transparent;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0;
     padding: 6px 6px;
     color: white;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: #222222;
+    background-color: #000000;
 }
-.mytopinfo{
+.mybody{
     padding-left: 10%;
     padding-right: 10%;
-    /*margin-top: 30px;*/
-    /*height: 96px;*/
 }
 .myhead{
     height: 96px;
@@ -35,10 +32,6 @@
 
 input.form-control.input-lg{
 height: 35px;
-padding-left:10px;
-padding-right:0;
-padding-top: 2px;
-padding-bottom: 2px;
 width: 80%;
 margin-right: -5px;
 border-radius: 0;
@@ -46,6 +39,7 @@ border-radius: 0;
 .mysearchspan{
 width: 19%;
 border-radius: 0;
+    background-color: #60AF00;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
 font-size:14px;
@@ -78,31 +72,31 @@ font-size:14px;
 }
 
 .mybodyblank{
-    background-color: #5cb85c;
-    color: white;
-    /*height: 36px;*/
+    padding-left: 20px;
+    background-color: #60AF00;
 
 }
-.blankinfo.btn{
-    border-radius: 0;
-}
+.blankinfo{
+    height: 36px;
 
-.mybodyblank.nav.nav-tabs>li>a {
-    margin-right: 2px;
-    line-height: 1.42857143;
-    border: 0 solid transparent;
-    border-radius: 4px 4px 0 0;
-    padding: 6px 6px;
-    color: white;
 }
-.mybodyblank.nav>li>a:focus, .nav>li>a:hover {
+.blankinfo>li>a {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    width: 85px;
+    font-size: 15px;
+    height: 36px;
+}
+.blankinfo>li>a:focus, .blankinfo>li>a:hover {
     text-decoration: none;
+    background-color: #2b542c;
+}
+.mybodycontent{
+
     background-color: #9d9d9d;
 }
-/*.ulfloat:after{*/
-    /*display:block;*/
-    /*clear:both;*/
-    /*content:"";*/
-    /*visibility:hidden;*/
-    /*height:0;*/
-/*}*/
+.myleft{
+    margin-top: 10px;
+
+}
