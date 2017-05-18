@@ -98,5 +98,21 @@ font-size:14px;
 }
 .myleft{
     margin-top: 10px;
+    border-right:1px dashed #9d9d9d;
+}
+.mylabel>a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+.mylabel{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.mymiddle{
+
+}
+#myCarousel{
 
 }
