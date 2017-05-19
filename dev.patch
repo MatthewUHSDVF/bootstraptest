@@ -1,0 +1,15 @@
+Index: csscus/navtop.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- csscus/navtop.css	(revision 5d9edda79e9439c6a9f33c5b12f00357d19b40a1)
++++ csscus/navtop.css	(revision )
+@@ -104,6 +104,7 @@
+ .mylabel>a{
+     text-decoration: none;
+     margin-top: 20px;
++    height: inherit;
+ }
+ .mylabel{
+     text-align: center;
