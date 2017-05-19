@@ -36,21 +36,25 @@
                 <button class="btn btn-success mysearchspan">搜索</button>
                 <br>
                 <div class="ulfloat">
-                    <p style="display: inline-block;float: left">友情推荐:</p>
-                    <ul style="list-style-type:none;">
-                        <li style="float: left;">&nbsp;&nbsp;<a href="#">发违法</a></li>
-                        <li style="float: left;">&nbsp;&nbsp;<a href="#">违法而非</a></li>
-                        <li style="float: left;">&nbsp;&nbsp;<a href="#">污染源头我让他</a></li>
-                        <li style="float: left;">&nbsp;&nbsp;<a href="#">尔特人</a></li>
-                        <br style="clear:both" >
-                    </ul>
+                    <p style="display: inline-block;">友情推荐:</p>
+                    <!--<ul style="list-style-type:none;">-->
+                        <!--<li >&nbsp;&nbsp;<a href="#">发违法</a></li>-->
+                        <!--<li >&nbsp;&nbsp;<a href="#">违法而非</a></li>-->
+                        <!--<li >&nbsp;&nbsp;<a href="#">污染源头我让他</a></li>-->
+                        <!--<li >&nbsp;&nbsp;<a href="#">尔特人</a></li>-->
+                        <!--&lt;!&ndash;<br style="clear:both" >&ndash;&gt;-->
+                    <!--</ul>-->
+                    &nbsp;&nbsp;<a href="#">发违法</a>
+                    &nbsp;&nbsp;<a href="#">违法而非</a>
+                    &nbsp;&nbsp;<a href="#">污染源头我让他</a>
+                    &nbsp;&nbsp;<a href="#">尔特人</a>
                 </div>
             </form>
         </div>
         <div class="col-sm-2">
         </div>
         <div class="col-sm-2 indexinfo">
-            <button class="btn btn-warning"><img src="">&nbsp;免费发布信息&nbsp;</button>
+            <button class="btn btn-warning"><span class="icon-edit"></span>&nbsp;免费发布信息&nbsp;</button>
             <br>
             <a href="#" style="color: #761c19;font-weight: 500">修改/删除信息</a>
         </div>
@@ -85,7 +89,7 @@
             <div class="col-sm-6 mylabel"><a href="#">医疗 <span class="icon-medkit"></span></a></div>
         </div>
         <div class="col-sm-6 mymiddle">
-            <div id="myCarousel" class="carousel slide">
+            <div id="myCarousel" class="carousel slide"  data-ride="carousel" data-interval="3000">
                 <!-- 轮播（Carousel）指标 -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -96,6 +100,7 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="../images/1.jpg" alt="First slide">
+                        <div class="carousel-caption">第一张图片</div>
                     </div>
                     <div class="item">
                         <img src="../images/2.jpg" alt="Second slide">
